@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 37fd0809cfb4f794bb28ecd01946d8b0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/prefabs/builtin/Icosahedron.prefab
+  uploadId: 683290

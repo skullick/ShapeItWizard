@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: d4dc578d8c92456383ef069425b97dd7
+timeCreated: 1721250374
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scripts/operators/QuintoPolygon.cs
+  uploadId: 683290

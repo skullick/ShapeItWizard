@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 18d7eacc541e7e24daabad2db50afd8a
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scenes/allSolids.unity
+  uploadId: 683290

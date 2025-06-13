@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: d7c806d2e47b4e57a204a1c0a9b3f60c
+timeCreated: 1720908348
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scripts/solids/Johnson.cs
+  uploadId: 683290

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ef5770b235e59b24a9ca1ab6270cc6a7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/prefabs/builtin/AntiPrisma.prefab
+  uploadId: 683290

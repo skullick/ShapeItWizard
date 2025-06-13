@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html  dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/css/uikit.gradient.css">
+
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/diversen/pandoc-uikit@master/style.css">
+        <link href="https://vjs.zencdn.net/5.4.4/video-js.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+        <!-- <script src="uikit.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/gh/diversen/pandoc-uikit@master/uikit.js"></script>
+        <!-- <script src="scripts.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/gh/diversen/pandoc-uikit@master/scripts.js"></script>
+        <!-- <script src="jquery.sticky-kit.js "></script> -->
+        <script src="https://cdn.jsdelivr.net/gh/diversen/pandoc-uikit@master/jquery.sticky-kit.js"></script>
+
+        <meta name="generator" content="pandoc-uikit" />
+                        <title>Polyhedron generator</title>
+        <style type="text/css">code{white-space: pre;}</style>
+                                                        </head>
+
+    <body>
+
+
+        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+
+            
+            <div class="uk-grid" data-uk-grid-margin >          
+                <div class="uk-width-medium-1-4">
+                    <div class="uk-overflow-container" data-uk-sticky="{top:25,media: 768}">
+                        <div class="uk-panel uk-panel-box menu-begin" >
+
+                                                        <ul>
+                            <li><a href="#polyhedron-generator">Polyhedron Generator</a><ul>
+                            <li><a href="#quickstart">Quickstart</a></li>
+                            <li><a href="#polyhedron-generator-component">Polyhedron Generator Component</a><ul>
+                            <li><a href="#available-base-shapes">Available base shapes</a></li>
+                            <li><a href="#available-operations">Available Operations</a></li>
+                            <li><a href="#other-parameters">Other Parameters</a></li>
+                            </ul></li>
+                            <li><a href="#context-menu-actions">Context menu actions</a></li>
+                            <li><a href="#performance-consideration">Performance consideration</a></li>
+                            <li><a href="#bonus-wireframe-generator">Bonus Wireframe Generator</a><ul>
+                            <li><a href="#parameters">Parameters:</a></li>
+                            </ul></li>
+                            </ul></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-medium-3-4">
+
+                    
+<h1 id="polyhedron-generator">Polyhedron Generator</h1>
+<p><img src="cover.png" /></p>
+<p>Thanks for purchasing this asset!</p>
+<h2 id="quickstart">Quickstart</h2>
+<p>To quickly get to use this asset you can watch the following video:</p>
+<p>Alternatively, you can read the following instructions.</p>
+<ol type="1">
+<li>Create a new GameObject to hold your polyhedra.</li>
+<li>Add the <code>PolyhedronGenerator</code> script. This will also add a <code>MeshFilter</code> component to your GameObject.</li>
+<li>Add a <code>MeshRenderer</code> component to the GameObject to render the polyhedra and assign a material.</li>
+<li>After that you should see the generated polyhedra. You can scale it with the <code>radius</code> parameter.</li>
+<li>Now you can change the base shape or modify the mesh with the operators.</li>
+</ol>
+<h2 id="polyhedron-generator-component">Polyhedron Generator Component</h2>
+<p>This generator takes a polyhedron base shape and modifies it through operations.</p>
+<h3 id="available-base-shapes">Available base shapes</h3>
+<p>You can choose from all Platonic solids, Johnson solids, regular prisms, and anti-prisms. - Tetrahedron - Cube - Octahedron - Dodecahedron - Icosahedron - 94 Johnson solids: You can choose the Johnson shape with the slider in the component. I won’t explain all of them here but Wikipedia has nice explanations. - N-Sided regular prisms: You can modify the prism with the sides and height parameter - N-Sided regular anti-prisms: You can modify the anti-prism with the sides and height parameter</p>
+<h3 id="available-operations">Available Operations</h3>
+<p>Most of these operations are described in Conways Polyhedron notation. You can combine them.</p>
+<p>Some of them take an additional <code>Amount</code> parameter into account. This value describes the extent of the transformation.</p>
+<p>You can use the <code>degree</code> parameter to limit the operation to faces with certain edges. <code>degree</code> zero applies the operation on all faces.</p>
+<ul>
+<li>Dual: Make Faces to Edges and Edges to Faces, Ignores the amount</li>
+<li>Truncate: Create a new face at each edge</li>
+<li>Ambo: Similar to truncate create regular polygons, Ignores the amount</li>
+<li>Kis: Create a pyramid on each face. Amount controls the height of the pyramid.</li>
+<li>Join: Same as: Dual, Ambo, Dual, Ignores the amount</li>
+<li>Meta: Kis with degree 3 and Join</li>
+<li>Gyro: Rotates each edge on the face</li>
+<li>Chamfer: Chamfers each edge</li>
+<li>Ortho: Same as: Join, Join, Ignores the amount</li>
+<li>Bevel: Same as Truncate the amount 10 and Ambo,</li>
+<li>Quinto: Creates a face in the middle of each face aligned with the vertices</li>
+<li>Whirl: Creates a face in the middle of each face aligned with the edges</li>
+<li>Inset: Creates a new inset face on each face</li>
+<li>Subdivide (non-Conway): Triangulates every face with &gt;4 vertices. Every face with 3 vertices gets split into 4 smaller 3-vertice faces.</li>
+</ul>
+<h3 id="other-parameters">Other Parameters</h3>
+<ul>
+<li>Radius: Scale of the base-polyhedron vertices</li>
+<li>Live Update: Controls if the polyhedron updates immediately. If it is disabled, you have to use the <code>generate</code> context menu.</li>
+<li>Double Sided: Whether the meshbuilder should generate the inwards faces of the polygon.</li>
+<li>Randomize Vertex Positions: Moves all vertexes in a random direction. If you want to keep the generated mesh you have to use the <code>saveMesh</code> context menu.</li>
+</ul>
+<h2 id="context-menu-actions">Context menu actions</h2>
+<ul>
+<li>generate: Generates the current polygon and stores it in the <code>MeshFilter</code> of the same GameObject.</li>
+<li>saveMesh: Saves the current <code>MeshFilter</code> mesh to a file.</li>
+</ul>
+<h2 id="performance-consideration">Performance consideration</h2>
+<p>You might use the polyhedron generator at runtime. Every modifying operation hurts your performance. I would advise to pre-calculate every needed polygon mesh.</p>
+<h2 id="bonus-wireframe-generator">Bonus Wireframe Generator</h2>
+<p>The Wireframe Generator takes a Mesh and generates a new Mesh with faces along all edges. If you don’t have a simple mesh you won’t be able to generate the wireframe at runtime.</p>
+<h3 id="parameters">Parameters:</h3>
+<ul>
+<li>Mesh: Mesh to create wireframe for</li>
+<li>Mesh Filter: <code>MeshFilter</code> to create wireframe for. If both <code>Mesh</code> and <code>Mesh Filter</code> parameters are set <code>Mesh Filter</code> takes precedence.</li>
+<li>Width: Width of the faces along the edges</li>
+<li>Type:
+<ul>
+<li>TWO_PLANE: two planes standing orthogonal on each other, intersecting in the middle</li>
+<li>POLYGON: a regular polygon with <code>Polygon Edge Count</code> sides</li>
+</ul></li>
+</ul>                    
+                </div>
+            </div>
+            <script src="https://vjs.zencdn.net/5.4.4/video.js"></script>
+        </div>
+    </body>
+</html>

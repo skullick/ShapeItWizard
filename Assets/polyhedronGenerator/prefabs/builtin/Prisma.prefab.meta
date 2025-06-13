@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4b65c901940a7394aa0441f3995d9286
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/prefabs/builtin/Prisma.prefab
+  uploadId: 683290

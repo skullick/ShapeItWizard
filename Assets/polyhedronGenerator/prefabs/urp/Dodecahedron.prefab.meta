@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 31c84428755401d4f90f69f23d950c88
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/prefabs/urp/Dodecahedron.prefab
+  uploadId: 683290

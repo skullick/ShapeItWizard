@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 7813294f4ead4bb1b510a9b4f4a20e4c
+timeCreated: 1721485114
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scripts/operators/SubdividePolygon.cs
+  uploadId: 683290

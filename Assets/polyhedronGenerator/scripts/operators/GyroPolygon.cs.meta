@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: dccbaea3aa224adba37725beea25337d
+timeCreated: 1720880642
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scripts/operators/GyroPolygon.cs
+  uploadId: 683290

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 4847791f348c4e79a45bdd05f0e417d9
+timeCreated: 1721339196
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/tools/PolyhedronMeshAnimator.cs
+  uploadId: 683290

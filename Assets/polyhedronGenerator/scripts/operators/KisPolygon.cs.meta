@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 6e3debd339c0473bb197f560045cedd0
+timeCreated: 1720565825
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scripts/operators/KisPolygon.cs
+  uploadId: 683290

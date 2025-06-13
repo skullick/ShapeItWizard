@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ad1c2f9f7acca7c4aa4ff6909d806844
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/prefabs/builtin/wireframeParticle.prefab
+  uploadId: 683290

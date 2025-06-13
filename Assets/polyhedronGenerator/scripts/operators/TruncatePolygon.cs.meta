@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: b9ea08f3b8d745a79736c4d587011d8c
+timeCreated: 1720551346
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scripts/operators/TruncatePolygon.cs
+  uploadId: 683290

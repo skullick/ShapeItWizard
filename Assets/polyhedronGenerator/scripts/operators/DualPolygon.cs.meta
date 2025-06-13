@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 310c66ed079944eaa4f785f457f80e58
+timeCreated: 1720544033
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scripts/operators/DualPolygon.cs
+  uploadId: 683290

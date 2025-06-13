@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: da2f437cf4f3aa74fbd2cc11772edc01
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/demo/particle.mat
+  uploadId: 683290

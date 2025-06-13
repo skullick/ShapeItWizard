@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9f3f969af2070ae4883582090035d489
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/prefabs/urp/Cube.prefab
+  uploadId: 683290

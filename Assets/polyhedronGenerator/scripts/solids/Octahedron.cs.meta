@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: eb65836ae2ab4f558a4e8d602ff78148
+timeCreated: 1720550444
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scripts/solids/Octahedron.cs
+  uploadId: 683290

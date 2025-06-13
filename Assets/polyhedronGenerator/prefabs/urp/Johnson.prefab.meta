@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 99370ea21c4f46a4ca1f190e850001dd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/prefabs/urp/Johnson.prefab
+  uploadId: 683290

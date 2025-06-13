@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 51e5c9b2f298f034988f21edfafe7079
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/Readme.pdf
+  uploadId: 683290

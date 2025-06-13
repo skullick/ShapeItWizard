@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 4a94b4feab93413581d0132f5cd7d9fb
+timeCreated: 1721251816
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scripts/operators/WhirlPolygon.cs
+  uploadId: 683290

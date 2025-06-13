@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: b5fc53d26a6e4b6997207e445fcc2d4d
+timeCreated: 1720549421
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scripts/solids/Tetrahedon.cs
+  uploadId: 683290

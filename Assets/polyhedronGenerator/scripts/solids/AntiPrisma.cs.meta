@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 4872a54e558746eca7e2bb11d65cc6ab
+timeCreated: 1721487219
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scripts/solids/AntiPrisma.cs
+  uploadId: 683290

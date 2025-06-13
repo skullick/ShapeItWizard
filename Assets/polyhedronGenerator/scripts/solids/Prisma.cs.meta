@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 8e678669d23343768025791a4b0bcf0f
+timeCreated: 1720889863
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scripts/solids/Prisma.cs
+  uploadId: 683290

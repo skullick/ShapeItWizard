@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 7d7d7f919dcb485aad4c0536745662d3
+timeCreated: 1721686063
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scripts/PolyhedronBase.cs
+  uploadId: 683290

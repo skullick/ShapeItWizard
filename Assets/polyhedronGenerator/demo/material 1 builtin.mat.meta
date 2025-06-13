@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 223caafefcf18da458c7f6097a4abdd0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/demo/material 1 builtin.mat
+  uploadId: 683290

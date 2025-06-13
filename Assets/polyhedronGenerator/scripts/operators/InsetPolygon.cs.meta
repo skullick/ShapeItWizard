@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 5e3959a920ce4985b281f13c06d45759
+timeCreated: 1721412630
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scripts/operators/InsetPolygon.cs
+  uploadId: 683290

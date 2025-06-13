@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: f8b39b4f4e49435987c53dda48bd3f99
+timeCreated: 1720548003
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scripts/solids/Dodecahedron.cs
+  uploadId: 683290

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5802f91e4909d154fa450e8197404b16
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/prefabs/builtin/Octahedron.prefab
+  uploadId: 683290

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e764f439acbdd144ebbdc363eb8937c2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/prefabs/builtin/Tetrahedron.prefab
+  uploadId: 683290

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2f8bbf9e13fb3dc4bae85c1bd8099641
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/demo/materialTransparentBuiltin.mat
+  uploadId: 683290

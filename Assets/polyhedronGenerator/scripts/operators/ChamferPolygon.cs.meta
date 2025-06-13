@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 2142346228ee440e91e3739954e96230
+timeCreated: 1720888215
+AssetOrigin:
+  serializedVersion: 1
+  productId: 290904
+  packageName: Polyhedron Generator
+  packageVersion: 1.0
+  assetPath: Assets/polyhedronGenerator/scripts/operators/ChamferPolygon.cs
+  uploadId: 683290
