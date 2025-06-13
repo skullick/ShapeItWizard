@@ -2,13 +2,19 @@
 
 ShapeItWizard là một tựa game tương tác độc đáo, đưa bạn vào vai một phù thủy, sử dụng đũa phép để vẽ nên những câu thần chú, tiêu diệt các quái vật hình khối. Trò chơi kết hợp công nghệ theo dõi chuyển động tay hiện đại qua **Mediapipe** với giao diện game sống động được phát triển bằng **Unity**.
 
-[](https://github.com/skullick/ShapeItWizard/blob/main/icon.png)
+<p align="center">
+  <img src="https://github.com/skullick/ShapeItWizard/blob/main/icon.png" width="350" title="hover text">
+</p>
+
 ## 🎮 Lối chơi
 Trong trò chơi, bạn sẽ đối mặt với làn sóng kẻ địch liên tục xuất hiện từ trên trời và lao về phía mình. Nhiệm vụ của bạn là vẽ các hình 2D tương ứng với loại kẻ địch bằng chuyển động tay. Mục tiêu là tiêu diệt càng nhiều kẻ địch càng tốt bằng cách vẽ đúng hình dạng.
 Nếu bạn vẽ đúng hình, tất cả kẻ địch cùng loại đang xuất hiện trên màn hình sẽ bị tiêu diệt ngay lập tức. Mỗi kẻ địch bị tiêu diệt sẽ mang lại cho bạn 1 điểm.
 Bạn bắt đầu với 3 mạng. Nếu kẻ địch tiếp cận bạn mà không bị tiêu diệt, bạn sẽ mất 1 mạng. Khi hết mạng, trò chơi kết thúc.
 
 Chỉ giơ và di chuyển ngón trỏ trước webcam để vẽ các hình. Mở cả 5 ngón tay để xác nhận hình đang vẽ. Hiện tại, trò chơi gồm các hình: Tròn, Tam giác, Vuông, Ngũ Giác.
+<p align="center">
+  <img src="https://github.com/skullick/ShapeItWizard/blob/main/gameplay.png" width="800" title="hover text">
+</p>
 
 ## 🚀 Công nghệ sử dụng
 - **Nhận diện & Theo dõi chuyển động tay**: Phần này được viết bằng Python, sử dụng mô hình ```hand_landmark``` từ thư viện Mediapipe để nhận diện và theo dõi cử chỉ tay của người chơi.
