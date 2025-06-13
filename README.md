@@ -11,6 +11,7 @@ Chỉ giơ và di chuyển ngón trỏ trước webcam để vẽ các hình. M�
 ## 🚀 Công nghệ sử dụng
 - **Nhận diện & Theo dõi chuyển động tay**: Phần này được viết bằng Python, sử dụng mô hình ```hand_landmark``` từ thư viện Mediapipe để nhận diện và theo dõi cử chỉ tay của người chơi.
 - **Giao diện Game**: Toàn bộ phần game được xây dựng và cài đặt bằng Unity3D.
+
 Phần mô hình Mediapipe và Unity giao tiếp với nhau qua socket. Trước đó, ```main.py``` đã được chuyển đổi và đóng gói môi trường sử dụng **Pyinstaller** rồi copy toàn bộ thư mục này vào trong thư mục Contents của file .app (xây dựng bằng Unity)
 ## 💻 Hướng dẫn cài đặt và chạy (MacOS)
 Hiện tại, Shape It Wizard đã được kiểm nghiệm trên hệ điều hành MacOS.
