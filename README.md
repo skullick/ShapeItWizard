@@ -1,6 +1,8 @@
 # Shape It Wizard
 
 ShapeItWizard là một tựa game tương tác độc đáo, đưa bạn vào vai một phù thủy, sử dụng đũa phép để vẽ nên những câu thần chú, tiêu diệt các quái vật hình khối. Trò chơi kết hợp công nghệ theo dõi chuyển động tay hiện đại qua **Mediapipe** với giao diện game sống động được phát triển bằng **Unity**.
+
+[](https://github.com/skullick/ShapeItWizard/blob/main/icon.png)
 ## 🎮 Lối chơi
 Trong trò chơi, bạn sẽ đối mặt với làn sóng kẻ địch liên tục xuất hiện từ trên trời và lao về phía mình. Nhiệm vụ của bạn là vẽ các hình 2D tương ứng với loại kẻ địch bằng chuyển động tay. Mục tiêu là tiêu diệt càng nhiều kẻ địch càng tốt bằng cách vẽ đúng hình dạng.
 Nếu bạn vẽ đúng hình, tất cả kẻ địch cùng loại đang xuất hiện trên màn hình sẽ bị tiêu diệt ngay lập tức. Mỗi kẻ địch bị tiêu diệt sẽ mang lại cho bạn 1 điểm.
